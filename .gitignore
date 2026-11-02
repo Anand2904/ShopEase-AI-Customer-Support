@@ -1,0 +1,56 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Local databases and customer data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Customer complaint records and support updates
+ticket_logs.csv
+support_updates.csv
+customer_replies.csv
+notification_reads.csv
+
+# Customer uploads
+uploads/
+complaint_attachments/
+uploaded_files/
+evidence/
+*.pem
+*.key
+
+# Local configuration and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and build artifacts
+*.log
+dist/
+build/
+*.egg-info/
+
+# Local customer notification preferences
+notification_preferences/
+
+# Old backups
+app_backup.py
+assets_backup
